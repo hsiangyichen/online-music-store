@@ -24,7 +24,7 @@ public class MainWindow extends Tool implements ActionListener {
     private void initialize() {
         createFrame();
 
-        ImageIcon backgroundImage = new ImageIcon("background.jpg"); // Set background image
+        ImageIcon backgroundImage = new ImageIcon("bg.jpg"); // Set background image
         Image img = backgroundImage.getImage();
         Image scaledImage = img.getScaledInstance(frame.getWidth(), frame.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledBackgroundImage = new ImageIcon(scaledImage);
