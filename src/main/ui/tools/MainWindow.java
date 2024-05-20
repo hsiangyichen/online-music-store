@@ -29,7 +29,6 @@ public class MainWindow extends Tool implements ActionListener {
         Image scaledImage = img.getScaledInstance(frame.getWidth(), frame.getHeight(), Image.SCALE_SMOOTH);
         ImageIcon scaledBackgroundImage = new ImageIcon(scaledImage);
         frame.setContentPane(new JLabel(scaledBackgroundImage));
-//        frame.getContentPane().setBackground(Color.decode("#eacec3"));
 
         createLabel();
         createButton("Submit", 330, 330, 140, 35);
